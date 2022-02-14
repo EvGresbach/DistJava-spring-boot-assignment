@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{style.css}">
+    <title>Target Training</title>
+</head>
+
+<body>
+<div th:replace="fragments/_header::header"></div>
+<h2>Target Training Animals</h2>
+<p>Target training is training an animal to go to a specified target. This type of training has a wide variety of uses once mastered and
+can be taught to many different species of animals. This is done with a few simple steps: Acknowledgement, touch, and movement.</p>
+<h2>Targets</h2>
+<img th:src="@{/target-stick.jpeg}" alt="Target stick that is a red ball with a metal handle.">
+<p>Almost anything can be used as a target. This includes a pen/pencil, your hand, a plastic food container lid (for agility), a target stick with a dist or ball at the end, etc.
+Anything that can be identified by your animal and that can be easily moved. </p>
+<p>Image credit goes to <a href="https://www.walmart.com/ip/Company-of-Animals-Target-Stick-Dog-Training-Accessory/52361809">creator</a> </p>
+
+<div th:replace="fragments/_footer::footer"></div>
+</body>
+</html>

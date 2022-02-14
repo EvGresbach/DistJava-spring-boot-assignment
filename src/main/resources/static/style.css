@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+    background-color: mediumblue;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    background-color: inherit;
+    color: aliceblue;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+li a:hover{
+    background-color: darkblue;
+    padding: 1em .5em;
+}
+img{
+    max-width: 30%;
+    float: right;
+}
+.footer{
+    clear: right;
+    background-color: mediumblue;
+    color: aliceblue;
+    padding: 1em;
+}
